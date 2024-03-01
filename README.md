@@ -44,13 +44,13 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/justinsovine/java-calculator.git
 ```
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
 cd java-calculator
 ```
 
-1. Build the project with Maven:
+3. Build the project with Maven:
 
 ```bash
 mvn clean install
