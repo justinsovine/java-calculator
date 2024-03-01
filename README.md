@@ -42,13 +42,41 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/justinsovine/java-calculator.git
+```
+
+1. Navigate to the project directory:
+
+```bash
 cd java-calculator
-mvn clean install```
+```
+
+1. Build the project with Maven:
+
+```bash
+mvn clean install
+```
 
 ## Usage
 
+Run the calculator application using the following command:
+
+```bash
+java -jar target/java-calculator.jar
+```
 ## Contributing
+
+Feel free to contribute by submitting bug reports, feature requests, or pull requests. Please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
+This project is licensed under the [MIT License](LICENSE).
+
 ## Acknowledgements
+
+We'd like to express our gratitude to the following individuals and projects:
+
+- [Open Source Initiative](https://opensource.org/) for providing guidance on open-source licensing.
+- The Maven Team for their excellent build tool that simplifies project management.
+- The Java community for creating and maintaining a powerful programming language.
+  
+Thank you for considering contributing to this project! (lol jk)
