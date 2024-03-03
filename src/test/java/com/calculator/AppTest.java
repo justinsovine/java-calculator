@@ -29,4 +29,24 @@ public class AppTest
        double result = App.subtract(10.0, 5.0);
        assertEquals(5.0, result, 0.001);
     }
+
+    /*
+     * Tests the multiply() method
+     */
+    @Test
+    public void testMultiplication()
+    {
+       double result = App.multiply(2.0, 2.0);
+       assertEquals(4.0, result, 0.001);
+    }
+
+    /*
+     * Tests the divide() method
+     */
+    @Test
+    public void testDivision()
+    {
+       double result = App.divide(6.0, 3.0);
+       assertEquals(2.0, result, 0.001);
+    }
 }
